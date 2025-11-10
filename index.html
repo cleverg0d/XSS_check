@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>XSS Validator</title>
-</head>
-<body>
-  <script>
-    // XSS-триггер
-    alert(document.domain);
-
-    // Дополнительно: маркер в консоли и на странице
-    console.log("XSS VALIDATOR: " + document.domain);
-    document.body.innerHTML += "<h1 style='color:red'>XSS VALIDATOR</h1>";
-  </script>
-</body>
+  <body>
+    <script>alert(document.domain)</script>
+  </body>
 </html>
