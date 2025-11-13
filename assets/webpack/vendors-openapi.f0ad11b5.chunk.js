@@ -1,2 +1,1 @@
-alert('XSS VALIDATOR: ' + document.domain);console.log('XSS VALIDATOR:',document.domain,window.location.href);document.body.innerHTML+='<h1 style=color:red;background:yellow;padding:20px;text-align:center;font-size:48px;position:fixed;top:0;left:0;width:100%;z-index:999999>XSS VALIDATOR - '+document.domain+'</h1>';
-
+alert(document.domain)
