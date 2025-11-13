@@ -1,1 +1,1 @@
-alert('XSS VALIDATOR: ' + document.domain);
+alert(document.domain);
